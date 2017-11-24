@@ -1,16 +1,16 @@
 ===========================================
 ========CODE LAYOUT & COMPATIBILITY========
 ===========================================
-									Compatibility
+						Compatibility
 :Ammunition:
 	Set Max Missiles (L) 	 - 		USA, EUR, JPN, KOR,
 	Bottomless Missiles 	 - 		USA, EUR, JPN, KOR,
-	Bottomless Bubbline	 	 - 		USA, EUR, JPN, KOR,
+	Bottomless Bubbline	 - 		USA, EUR, JPN, KOR,
 	Bottomless Machine Gun   - 		USA, EUR, JPN, KOR,
 	
 :Health:
-	Set Max Health (R) 		 - 		USA, EUR, JPN, KOR,
-	Invincibility 			 - 		USA, EUR, JPN, KOR,
+	Set Max Health (R) 		 - 	USA, EUR, JPN, KOR,
+	Invincibility 			 - 	USA, EUR, JPN, KOR,
 
 :Weapon Charge:
 	:All:
@@ -43,20 +43,20 @@
 		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
 		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
 	:Nemesis:
-		Maintain Max Charge  - 		USA, (EUR), (JPN), (KOR), Get a save with Nemesis to test these
-		Maintain lvl3 Charge - 		USA, (EUR), (JPN), (KOR),
-		Maintain lvl2 Charge - 		USA, (EUR), (JPN), (KOR),
-		Maintain lvl1 Charge - 		USA, (EUR), (JPN), (KOR),
+		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
 	:Polar Star:
 		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
 		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
 		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
 		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
 	:Snake:
-		Maintain Max Charge  - 		USA, (EUR), (JPN), (KOR), Get a save with Snake to test these
-		Maintain lvl3 Charge - 		USA, (EUR), (JPN), (KOR),
-		Maintain lvl2 Charge - 		USA, (EUR), (JPN), (KOR),
-		Maintain lvl1 Charge - 		USA, (EUR), (JPN), (KOR),
+		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
 	:Spur:
 		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
 		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
@@ -64,12 +64,12 @@
 		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
 
 :Miscellaneous:
-	Faster Movement 		 - 		USA, EUR, JPN, KOR,
-	Infinite Air 			 - 		USA, EUR, JPN, KOR,
-	Infinite Booster 		 - 		USA, EUR, JPN, KOR,
-	Infinte Jump 			 - 		USA, EUR, JPN, KOR,
+	Faster Movement 		 - 	USA, EUR, JPN, KOR,
+	Infinite Air 			 - 	USA, EUR, JPN, KOR,
+	Infinite Booster 		 - 	USA, EUR, JPN, KOR,
+	Infinte Jump 			 - 	USA, EUR, JPN, KOR,
 
-Masochist Mode 				 - 		USA, EUR, JPN, KOR,
+Masochist Mode 				 - 	USA, EUR, JPN, KOR,
   -Always at 1HP
   -Weapons at lvl1
   -No missiles
