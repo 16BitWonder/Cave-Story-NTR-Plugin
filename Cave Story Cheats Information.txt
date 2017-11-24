@@ -1,0 +1,401 @@
+===========================================
+========CODE LAYOUT & COMPATIBILITY========
+===========================================
+									Compatibility
+:Ammunition:
+	Set Max Missiles (L) 	 - 		USA, EUR, JPN, KOR,
+	Bottomless Missiles 	 - 		USA, EUR, JPN, KOR,
+	Bottomless Bubbline	 	 - 		USA, EUR, JPN, KOR,
+	Bottomless Machine Gun   - 		USA, EUR, JPN, KOR,
+	
+:Health:
+	Set Max Health (R) 		 - 		USA, EUR, JPN, KOR,
+	Invincibility 			 - 		USA, EUR, JPN, KOR,
+
+:Weapon Charge:
+	:All:
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
+	:Blade:
+		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
+	:Bubbline:
+		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
+	:Fireball:
+		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
+	:Machine Gun:
+		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
+	:Missile Launcher:
+		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
+	:Nemesis:
+		Maintain Max Charge  - 		USA, (EUR), (JPN), (KOR), Get a save with Nemesis to test these
+		Maintain lvl3 Charge - 		USA, (EUR), (JPN), (KOR),
+		Maintain lvl2 Charge - 		USA, (EUR), (JPN), (KOR),
+		Maintain lvl1 Charge - 		USA, (EUR), (JPN), (KOR),
+	:Polar Star:
+		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
+	:Snake:
+		Maintain Max Charge  - 		USA, (EUR), (JPN), (KOR), Get a save with Snake to test these
+		Maintain lvl3 Charge - 		USA, (EUR), (JPN), (KOR),
+		Maintain lvl2 Charge - 		USA, (EUR), (JPN), (KOR),
+		Maintain lvl1 Charge - 		USA, (EUR), (JPN), (KOR),
+	:Spur:
+		Maintain Max Charge  - 		USA, EUR, JPN, KOR,
+		Maintain lvl3 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl2 Charge - 		USA, EUR, JPN, KOR,
+		Maintain lvl1 Charge - 		USA, EUR, JPN, KOR,
+
+:Miscellaneous:
+	Faster Movement 		 - 		USA, EUR, JPN, KOR,
+	Infinite Air 			 - 		USA, EUR, JPN, KOR,
+	Infinite Booster 		 - 		USA, EUR, JPN, KOR,
+	Infinte Jump 			 - 		USA, EUR, JPN, KOR,
+
+Masochist Mode 				 - 		USA, EUR, JPN, KOR,
+  -Always at 1HP
+  -Weapons at lvl1
+  -No missiles
+
+===========================================
+========CODE LAYOUT & COMPATIBILITY========
+===========================================
+	
+OFFSETS: (These are in relation to the Debugger, not the files)
+
+==================================
+====REGION OFFSETS DIFFERENCES====
+==================================
+
+==MAX HEALTH==
+USA - 1C3B64
+EUR - 1D5AF8 (Diff from USA: +11F94)
+JPN - 1FF17C (Diff from USA: +3B618)
+KOR - 1FFF24 (Diff from USA: +3C3C0)
+
+==MAX MISSILES==
+USA - 1BDF68
+EUR - 1CFEBC (Diff from USA: +11F54)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==BUBBLINE AMMO==
+USA - 1BDF94
+EUR - 1CFEE8 (Diff from USA: +11F54)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==M.GUN AMMO==
+USA - 1BDF58
+EUR - 1CFEAC (Diff from USA: +11F54)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==BLADE LEVEL==
+USA - 1BDF9C
+EUR -  (Diff from USA:)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==BUBBLINE LEVEL==
+USA - 1BDF88
+EUR -  (Diff from USA:)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==FIREBALL LEVEL==
+USA - 1BDF74
+EUR -  (Diff from USA:)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==M.GUN LEVEL==
+USA - 1BDF4C
+EUR -  (Diff from USA:)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==MISSILE LAUNCHER LEVEL==
+USA - 1BDF60
+EUR -  (Diff from USA:)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==NEMESIS LEVEL==
+USA - 1BDF9C
+EUR -  (Diff from USA:)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==POLAR STAR LEVEL==
+USA - 1BDF4C
+EUR -  (Diff from USA: +11F54)
+JPN - 1D94E8(Diff from USA: +1B59C)
+KOR -  (Diff from USA:)
+
+==SNAKE LEVEL==
+USA - 1BDF4C
+EUR -  (Diff from USA:)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==SPUR LEVEL==
+USA - 1BDF4C
+EUR - 1CFEA0 (Diff from USA: +11F54)
+JPN - 1D94E8 (Diff from USA: +1B59C)
+KOR - 1DA290 (Diff from USA: +1C344)
+
+==MOVEMENT==
+USA - 1C3B00
+EUR - 1D5A94 (Diff from USA: +11F94)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==AIR==
+USA - 1C3B70
+EUR - 1D5B04 (Diff from USA: +11F94)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==BOOSTER FUEL==
+USA - 1C3B7C
+EUR - 1D5B10 (Diff from USA: +11F94)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==JUMP==
+USA - 1C3AD0
+EUR - 1D5A64 (Diff from USA: +11F94)
+JPN -  (Diff from USA:)
+KOR -  (Diff from USA:)
+
+==CONTROLS==
+USA - 1C3628
+EUR - 1D559C (Diff from USA: +11F74)
+JPN - 1FEC20 (Diff from USA: +3B5F8)
+KOR - 1FF9C8 (Diff from USA: +3C3A0)
+
+==================================
+====REGION OFFSETS DIFFERENCES====
+==================================
+
+========
+=Health=
+========
+==USA==
+HP: 1C3B64 (Maximum health.)
+	1C3B60 (Current Health.)
+	1C3B68 (Does health loss animation from this value, to value of current HP.)
+WRITEU16(0x01C3B60, 0xFF);
+
+==EUR==
+	1D5AF8	(Maximum health.)
+	1D5AF4  (Current Health.)
+	1D5AFC	(Does health loss animation from this value, to value of current HP.)
+
+==JPN==
+	1FF17C	(Maximum health.)
+	1FF178  (Current Health.)
+	1FF180	(Does health loss animation from this value, to value of current HP.)
+
+==KOR==
+	1FFF24	(Maximum health.)
+	1FFF20  (Current Health.)
+	1FFF28	(Does health loss animation from this value, to value of current HP.)
+========
+=Health=
+========
+
+=====
+=Air=
+=====
+==USA==
+AIR: 1C3B70 (Current air, write 3E8 (1000))
+WRITEU16(0x01C3B70, 0x3E8);
+=====
+=Air=
+=====
+
+==============
+=Booster Fuel=
+==============
+==USA==
+Booster Fuel: 1C3B7C (32 = max fuel booster2.0,  = max fuel booster0.8, and 0 = empty fuel)
+WRITEU16(0x01C3B7C, 0x32);
+==============
+=Booster Fuel=
+==============
+
+==========
+=Missiles=
+==========
+==USA==
+Missiles (Ammo): 1BDF68 (Current max missile count.)
+				 1BDF6C (Counts as both missiles and super missiles.)
+WRITEU16(0x01BDF6C, 0xFF);
+==========
+=Missiles=
+==========
+
+===============
+=Bubbline Ammo=
+===============
+==USA==
+Bubbline Ammo: 1BDF94 (Max is 100, Hex = 64)
+WRITEU16(0x01BDF94, 0x64);
+
+==EUR==
+
+==JPN==
+
+==KOR==
+
+===============
+=Bubbline Ammo=
+===============
+
+============
+=M.Gun Ammo=
+============
+M.Gun Ammo: 1BDF58 (Max is 100, Hex = 64)
+WRITEU16(0x01BDF58, 0x64);
+============
+=M.Gun Ammo=
+============
+
+===============
+=P.Star Charge=
+===============
+P.Star Charge: 1BDF4C (This is it! Only put this up to 3.)
+			   1BDF50 (Charge meter! lvl1:10, lvl2:20, lvl3:10)
+WRITEU16(0x01BDF4C, 0x03);
+WRITEU16(0x01BDF50, 0x00);
+===============
+=P.Star Charge=
+===============
+
+===================
+=M.Launcher Charge=
+===================
+Missile Launcher Charge: 1BDF60 (This is it! Only put this up to 3.)
+						 1BDF64 (Charge meter! lvl1:10, lvl2:20, lvl3:10)
+WRITEU16(0x01BDF60, 0x03);
+WRITEU16(0x01BDF64, 0x00);
+===================
+=M.Launcher Charge=
+===================
+
+==============
+=M.Gun Charge=
+==============
+Machine Gun Charge: 1BDF4C (This is it! Only put this up to 3.)
+					1BDF50 (Charge meter! lvl1:30, lvl2:40, lvl3:10)
+WRITEU16(0x01BDF4C, 0x03);
+WRITEU16(0x01BDF50, 0x00);
+==============
+=M.Gun Charge=
+==============
+
+=================
+=Fireball Charge=
+=================	
+Fireball Charge: 1BDF74 (This is it! Only put this up to 3.)
+				 1BDF78 (Charge meter! lvl1:10, lvl2:20, lvl3:20)
+WRITEU16(0x01BDF74, 0x03);
+WRITEU16(0x01BDF78, 0x00);
+=================
+=Fireball Charge=
+=================
+
+=================
+=Bubbline Charge=
+=================
+Bubbline Charge: 1BDF88 (This is it! Only put this up to 3.)
+				 1BDF8C (Charge meter! lvl1:10, lvl2:20, lvl3:5)
+WRITEU16(0x01BDF88, 0x03);
+WRITEU16(0x01BDF8C, 0x00);
+=================
+=Bubbline Charge=
+=================
+
+==============
+=Blade Charge=
+==============
+Blade Charge: 1BDF9C (This is it! Only put this up to 3.)
+			  1BDFA0 (Charge meter! lvl1:30, lvl2:60, lvl3:0)
+WRITEU16(0x01BDF9C, 0x03);
+WRITEU16(0x01BDFA0, 0x00);
+==============
+=Blade Charge=
+==============
+
+==============
+=Snake Charge=
+==============
+Snake Charge: 1BDF4C (This is it! Only put this up to 3.)
+			  1BDF50 (Charge meter! lvl1:30, lvl2:40, lvl3:16)
+WRITEU16(0x01BDF4C, 0x03);
+WRITEU16(0x01BDF50, 0x00);
+==============
+=Snake Charge=
+==============
+
+================
+=Nemesis Charge=
+================
+Nemesis Charge: 1BDF9C (This is it! Only put this up to 3.)
+				1BDFA0 (Charge meter! lvl1:1, lvl2:1, lvl3:1)
+WRITEU16(0x01BDF9C, 0x03);
+WRITEU16(0x01BDFA0, 0x01);
+================
+=Nemesis Charge=
+================
+
+============
+=Jump Stuff=
+============
+Has Jumped: 1C3AD0 (08 = Has not jumped, 00 = jumping, 02 = booster)
+WRITEU16(0x01C3AD0, 0x08);
+============
+=Jump Stuff=
+============
+
+================
+=Movement Stuff=
+================
+Left/Right Movement Speed: 1C3B00 (Both left and right movement, 0x0F for fast left, 0xF0 for fast right)
+WRITEU16(0x01C3B00, 0x0F); (Left)
+WRITEU16(0x01C3B01, 0xF0); (Right)
+================
+=Movement Stuff=
+================
+
+Whimsical Star Stuff
+Offsets 001C0F5C-F and 001C0F60-3 Always match eachother (only first byte changes). (XXEE1B00)
+Keeping those offsets with a value of E0 in 001C0F5C and 001C0F60 seems to deactivate it.
+Setting those values to 5C seems to activate it (When player has the item).
+
+
+Unknown
+Stuff at 001C225C
+Stuff at 001C2854 (Repeating patterns, items maybe?)
+Stuff at 001C2F70 (001C2F70-3 x-axis cam, while 001C2F74-7 y-axis cam.)
+Stuff at 001C31B4
+Stuff at 001C3614 (Controls read at 1C3628-B, pause menu and other things nearby!)
